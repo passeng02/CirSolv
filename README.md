@@ -1,7 +1,7 @@
 # CirSolv
 Problem Statement : For a DC resistive circuit with n nodes and b branches, given the values of resistances and voltage sources in each branch, solve for the current through each branch.
 
-Data Structures used
+Data Structures used : 
 
 Graph(M) - 
 EleCir - To model the electric circuit
@@ -24,7 +24,7 @@ To store and access the alias nodes of the meshed tree, in O(1) time.
 		M - Main data structure
 		A - Auxiliary data structure
     
-Algorithms used
+Algorithms used : 
 
 modBFS - A modified BFS algorithm 
 genCycle - To generate cycle from modified spanning tree data
@@ -32,6 +32,7 @@ genEq - To generate KCL and KVL equations from nodes
 findDet - To find Determinants
 solveDet - To solve for branch currents from the determinants
 
-Use cases 
+Use cases :
+
 Simulating DC resistive circuits for analysis.
 
